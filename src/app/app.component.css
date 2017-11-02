@@ -1,0 +1,50 @@
+#principal, header{
+  width: 100%;
+  position: absolute;
+  float: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #040612;
+  top:0;
+  height: 60px;
+}
+
+#principal{
+  top: 60px;
+  height: calc(100%-60px);
+}
+
+#principal > div{
+  display: block;
+  float: left;
+  height: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+#principal-pane{
+  width: 70%;
+  box-sizing: border-box;
+}
+
+#second-pane{
+  width: 30%;
+  max-height: calc(100%-60px);
+  box-sizing: border-box;
+  position: static;
+  float: left;
+}
+
+#second-pane > div{
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+#map-pane{
+  margin: -20% 0% -20% -35%;
+}

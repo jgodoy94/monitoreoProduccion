@@ -1,0 +1,10 @@
+#mapHN{
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  transform: scale(0.65,0.65);
+}
+
+#deptos > path:hover{
+  fill: yellowgreen;
+}

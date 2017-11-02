@@ -1,0 +1,11 @@
+#graphicBars{
+  display: block;
+  position: relative;
+  margin-top: 10%;
+  height: 90%;
+}
+
+#graphicBars > canvas{
+  height: 100%;
+  color: black;
+}
